@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="rover.js"></script>
+		<script type="text/javascript">
+
+			var roverManager = new RoverManager();
+			roverManager.output(function(result){
+				console.log(result);
+			});
+
+			roverManager.input('5 5');
+			roverManager.input('1 2 N');
+			roverManager.input('LMLMLMLMM');
+			roverManager.input('3 3 E');
+			roverManager.input('MMRMMRMRRM');
+
+		</script>
+	</head>
+	<body>You can see output on console.</body>
+</html>
